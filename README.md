@@ -45,8 +45,8 @@ En este ejercicio vamos a crear una APP que utilice la API de [Rick and Morty](h
 - Crear un personaje.
 
 ## Endpoints/Flags a utilizar
-- [ ] GET https://rickandmortyapi.com/api/character
-- [ ] GET https://rickandmortyapi.com/api/episode
+- [x] GET https://rickandmortyapi.com/api/character
+- [x] GET https://rickandmortyapi.com/api/episode
 
 ## Base de datos
 Tendrá los siguientes modelos:
@@ -67,13 +67,13 @@ La relación de Character y Episode será de muchos a muchos, ya que un personaj
 
 ## Backend
 Tendrá las siguientes rutas:
-- [ ] GET /characters:
+- [x] GET /characters:
     - Obtener el listado de personajes
     - Debe devolver solo los datos necesarios para la ruta principal
-- [ ] GET /episodes:
+- [x] GET /episodes:
     - Debe devolver un listado con todos los episodios 
     - En una primera instancia deberán obtenerlos desde la API externa y guardarlos en su propia base de datos y luego ya utilizarlos desde allí
-- [ ] POST /character:
+- [x] POST /character:
     - Recibe los datos recolectados desde el formulario controlado de la ruta de creación de personaje 
     - Crea un personaje en la BDD
 
@@ -102,7 +102,7 @@ Se debe desarrollar una aplicación de React/Redux que contenga las siguientes p
 Dependiendo de los tiempos que lleve el repaso, se podría agregar:
 - [ ] Paginado
 - [ ] Botón para filtrar por personajes traidos de la Api o creados en la BDD
-- [ ] GET /character/:id
+- [x] GET /character/:id
 
 
 
